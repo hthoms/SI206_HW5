@@ -1,7 +1,8 @@
 import re
 
+fle = input('Enter file name: ')
 
-f = open('regex_sum_42.txt')
+f = open(fle)
 
 lst = []
 total = 0
